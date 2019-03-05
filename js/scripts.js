@@ -1,3 +1,5 @@
 $(document).ready(function)
 
-$(button)
+$(button.ROLLDICE).click(function()) {
+  
+}
