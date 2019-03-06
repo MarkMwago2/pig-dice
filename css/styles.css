@@ -8,3 +8,9 @@ jumbotron{
 .new{
   text-align: center;
 }
+
+body{
+  background-image: url("https://i.ytimg.com/vi/OYCvbVXkqas/hqdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
