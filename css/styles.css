@@ -14,3 +14,11 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+button{
+  background-color: #ec407a;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 30px;
+
+}
