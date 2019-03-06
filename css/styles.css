@@ -1,12 +1,6 @@
-.jumbotron{
+jumbotron{
   background-color: yellow;
   text-align: center;
   text-decoration-color: blue;
-}
-.new{
-  text-align: center;
-}
-
-.player 2{
-  float: right;
+  opacity: 0.5;
 }

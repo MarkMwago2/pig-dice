@@ -19,44 +19,41 @@
     </div>
     <div class="row">
       <div class="player 1">
-        <div class="col-md-6">
-          <label for="Player 1">Player 1</label>
-          <input type="text" name="Name" value="">
-          <label for="Score">SCORE</label>
-          <input type="Number" name="" value="0">
-          <button >ROLLDICE</button>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="Player 1">Player 1</label>
+            <input type="text" name="Name" value="">
+          </div>
+          <div class="form-group">
+            <label for="Score">SCORE</label>
+            <!-- <input type="" id="score1" value="0"> -->
+            <h3 id="score1"></h3>
+          </div>
+          <button type="button" id="roll1">ROLLDICE</button>
         <button >HOLD</button>
       </div>
       </div>
-</div>
-
-      <div class="row">
-        <div class="player 2">
-          <div class="col-md-6">
-            <label for="Player 2">Player 2</label>
-            <input type="text" name="Name" value="">
-            <label for="Score">SCORE</label>
-            <input type="Number" name="" value="0">
-            <button >ROLLDICE</button>
-            <button >HOLD</button>
-          </div>
-        </div>
-      </div>
-      <div class="new">
-        <div class="row">
-          <button >NEW GAME</button>
-
-        </div>
-
-      </div>
 
 
+    <div class="col-md-4">
+      <button >NEW GAME</button>
+      <button type="button" name="button" id="die">0</button>
     </div>
 
-
-
-
-
-
+        <div class="player 2">
+          <div class="col-md-4">
+            <div class="form-group">
+            <label for="Player 2">Player 2</label>
+            <input type="text" name="Name" value="">
+          </div>
+          <div class="form-group">
+            <label for="Score">SCORE</label>
+          <h3 id="score2"></h3>
+          </div>
+            <button id="roll2" >ROLLDICE</button>
+            <button >HOLD</button>
+          </div>
+          </div>
+    </div>
   </body>
 </html>
